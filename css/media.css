@@ -1,0 +1,174 @@
+@media screen and (max-width: 1200px) {
+  .base-content {
+    width: 100%;
+  } 
+}
+
+@media screen and (max-width: 991px) {
+  .base-content {
+    width: 90%;
+    height: 90%;
+  } 
+
+  .container {
+    width: 400px;
+  }
+
+  main .container {
+    width: 320px;
+  }
+
+  .intro__text {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  
+  .base-content {
+    width: 80%;
+    height: 80%;
+  } 
+    
+  .container {
+    width: 350px;
+  }
+
+  main .container {
+    width: 270px;
+  }
+
+  .header__link {
+    font-size: 14px;
+  }
+
+  .header__item {
+    margin-right: 20px;
+  }
+
+  .intro__text {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+
+.base-img {
+  display: none;
+}
+
+body {
+  background: url(../img/image_summer.jpg) no-repeat center bottom / cover;
+  height: 100vh;
+}
+
+.header .container {
+  width: 375px;
+}
+
+.header {
+  background: #fff;
+  position: absolute;
+  width: 100%;
+}
+
+.header__container {
+  padding: 10px 0px;
+  justify-content: space-around;
+}
+
+.header__logo-link {
+  display: none;
+}
+
+.header__logo {
+  background: url(../img/mobile-logo_pineapple.svg) no-repeat;
+  width: 25px;
+  height: 40px;
+}
+
+.header__link {
+  font-size: 14px;
+}
+
+.header__item {
+  margin-right: 20px;
+}
+
+.header__item:last-child {
+  margin-right: 0px;
+}
+
+main {
+  height: 431px;
+  width: 335px;
+  position: absolute;
+  background: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+  left: 20px;
+  top: 188px;
+}
+
+main .container {
+  margin-left: 20px;
+}
+
+.ic_success {
+  padding-top: 30px;
+}
+
+.ic_success + .intro__title {
+  padding-top: 39px;
+}
+
+.intro__title {
+  font-size: 24px;
+  margin-bottom: 10px;
+  padding-top: 25px;
+}
+
+.intro__text {
+  font-size: 14px;
+  line-height: 26px;
+  margin-bottom: 0px;
+  width: 295px;
+}
+
+.error {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+#wrong {
+  padding-top: 0px;
+}
+
+.type-form {
+  position: relative;
+  left: -30px;
+}
+
+.type-form__field {
+  width: 295px;
+  height: 60px;
+  margin-top: 18px;
+  padding-left: 19px;
+}
+
+.arrow-btn {
+  right: 10px;
+  top: 38px;
+}
+
+.terms {
+  margin: 20px 0px;
+}
+
+.line {
+  width: 295px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+}
